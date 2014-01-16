@@ -1,11 +1,11 @@
-package cryptoserver
+package crypto_server
 
-// cryptoserver/server.go
+// crypto_server/server.go
 
 import (
 	"crypto/rsa"
 	xh "github.com/jddixon/xlattice_go/httpd"
-	"github.com/jddixon/xlattice_go/overlay/datakeyed"
+	xd "github.com/jddixon/xlattice_go/overlay/datakeyed"
 )
 
 type CryptoServer struct {
@@ -15,7 +15,7 @@ type CryptoServer struct {
 	BASE_DIR_NAME string // = "./"
 
 	name2Hash    *xh.Name2Hash
-	memCache     *MemCache
+	memCache     *xd.MemCache
 	nodeDirName  string
 	sitesDirName string
 }
