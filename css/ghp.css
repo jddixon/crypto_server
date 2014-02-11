@@ -9,5 +9,5 @@ div.content {
 }
 div.f { width: 100%; overflow: auto; }
 div.f div.license { float: left; }
-div.f div.project { text-align: center; }
 div.f div.logo { float: right; }
+div.f div.project { margin: 0 auto; }
