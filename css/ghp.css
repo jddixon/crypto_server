@@ -11,3 +11,12 @@ div.f { width: 100%; }
 div.f div.license { float: left; width:33%; }
 div.f div.project { display: inline-block; margin:0 auto; width:33%;}
 div.f div.logo { float: right; width:33%;}
+
+/* possible conflicts here*/
+h1 {
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
