@@ -1,6 +1,8 @@
 crypto_server/TODO
 
-2014-01-02
+2014-11-11
+    * there have been minor changes, needs commit
 
-*   need xlattice_go/httpd/Name2Hash
-*   need xlattice_go/overlay/dataKeyed/MemCache
+2014-01-02
+    *   need xlattice_go/httpd/Name2Hash                                * DONE
+    *   need xlattice_go/overlay/dataKeyed/MemCache                     * DONE

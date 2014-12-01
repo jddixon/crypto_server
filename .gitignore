@@ -6,7 +6,7 @@ junk*
 .merkle
 .posted
 *.swp
+.wrapped
 tmp
 *ZZZ
-java
-.wrapped
+.sharedev

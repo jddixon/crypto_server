@@ -5,7 +5,7 @@ package crypto_server
 import (
 	"crypto/rsa"
 	xh "github.com/jddixon/xlattice_go/httpd"
-	xd "github.com/jddixon/xlattice_go/overlay/datakeyed"
+	xd "github.com/jddixon/xlOverlay_go/datakeyed"
 )
 
 type CryptoServer struct {
