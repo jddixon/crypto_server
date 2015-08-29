@@ -14,6 +14,48 @@
 <p>This is an implementation of the <a href="http://www.xlattice.org">XLattice</a>
 CryptoServer in the Go programming language.</p>
 
+<p>A CryptoServer servers static web pages from a
+<a href="https://jddixon.github.io/buildList">BuildList</a>,
+a cryptographically secure description of its content.  The BuildList
+lists all of the pages in a website by name and then by the SHA hash of
+the page.  The BuildList contains an indented list of the files holding
+the content of each web page and the content key (SHA1 or SHA256 hash)
+of that content.  The web pages are stored in a hierarchical file
+system organized by content key instead of name.  In the current
+implementation, this means that if the content hash of a page were
+<code>0x012345...def</code>, then the page would be stored at <code>U/01/23/45...def</code>.
+If the relative path to the page were <code>path/to/fileX</code> then the indented
+list would contain
+    path
+      &hellip;
+      to
+        &hellip;
+        fileX 012345&hellip;def</p>
+
+<p>Given this file name, the system would first use the BuildList to<br />
+determine its content hash, and then use that content hash to obtain
+the content (the web page itself) from the file system.  The CryptoServer
+would have verified the correctness of the content key by hashing the
+content during the file retrieval process.</p>
+
+<p>CryptoServer web servers are generally organized in clusters (see
+<a href="https://jddixon.github.io/xlCluster_go">xlCluster_go</a>,
+with page content distributed across the clusters.  If the server
+attempts to retrieve a web page (by content key) and the page is corrupt
+or not present on the server, then the server will automatically retrieve
+it from another member of the cluster, reading it through its own disk
+and in-memory caches, so that it will be available locally on future
+requests.</p>
+
+<p>At any time, the system administrator can change the website by first
+adding the content of any altered web pages to one or more cluster
+members and then by replacing
+the build list.  This last action (replacing the build list)  will usually
+invalidate a small fraction of the pages displayed.   Generally the first
+fetch of an affected page will required that the content for the page be
+retrieved from a peer; from that point there will almost always be a
+local copy of the page and retrieval will be very fast.</p>
+
 <h2>Project Status</h2>
 
 <p>Pre-alpha.  Some code exists but nothing immediately useful to the
