@@ -50,6 +50,3 @@ local copy of the page and retrieval will be very fast.
 Pre-alpha.  Some code exists but nothing immediately useful to the
 casual user.
 
-## On-line Documentation
-More information on the **crypto_server** project can be found
-[here](https://jddixon.github.io/crypto_server)
