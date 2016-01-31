@@ -1,5 +1,8 @@
 crypto_server/CHANGES
 
+v0.1.5
+    2016-01-31
+        * add countem                                               SLOC  462
 v0.1.4
     2015-12-20
         * fix dead links                                            SLOC  457
@@ -12,4 +15,5 @@ v0.1.4
 0.1.1
     2013-01-20
         * added doc/
+
 
