@@ -1,0 +1,8 @@
+# crypto_server/.dvcz/projCfg.local
+
+dir:std:cmd
+dir:local:server
+dir:local:sitemaker
+dir:local:xdocs
+
+
