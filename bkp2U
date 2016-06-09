@@ -8,6 +8,7 @@ then
     -d ../crypto_server \
     -1L  \
     -u $DVCZ_UDIR \
+    -X .ssh \
     $@
   
 else

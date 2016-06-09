@@ -1,5 +1,8 @@
 crypto_server/CHANGES
 
+v0.1.7.1
+    2016-06-08
+        * fix last build list                                       SLOC 1603
 v0.1.7
     2016-05-22
         * add bkp2U, update .dvcz                                   SLOC  639
@@ -21,6 +24,7 @@ v0.1.4
 0.1.1
     2013-01-20
         * added doc/
+
 
 
 
