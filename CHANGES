@@ -1,5 +1,8 @@
 crypto_server/CHANGES
 
+v0.1.8
+    2016-06-20
+        * add ghpDoc/{css,img}                                      SLOC 2082
 v0.1.7.1
     2016-06-08
         * fix last build list                                       SLOC 1603
@@ -24,6 +27,7 @@ v0.1.4
 0.1.1
     2013-01-20
         * added doc/
+
 
 
 
