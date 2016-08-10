@@ -1,4 +1,4 @@
-package crypto_server
+package cryptoserver_go
 
 import (
 	. "gopkg.in/check.v1"

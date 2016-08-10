@@ -1,6 +1,6 @@
-package crypto_server
+package cryptoserver_go
 
-// crypto_server/server.go
+// cryptoserver_go/server.go
 
 import (
 	"crypto/rsa"

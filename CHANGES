@@ -1,5 +1,8 @@
-crypto_server/CHANGES
+cryptoserver_go/CHANGES
 
+v0.1.9
+    2016-08-10
+        * renamed project, edited documentation                     SLOC 2098
 v0.1.8
     2016-06-20
         * add ghpDoc/{css,img}                                      SLOC 2082
@@ -27,6 +30,7 @@ v0.1.4
 0.1.1
     2013-01-20
         * added doc/
+
 
 
 
