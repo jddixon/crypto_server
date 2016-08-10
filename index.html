@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>crypto_server</title>
+  <title>cryptoserver_go</title>
   <meta charset="utf-8" />
   <link rel="stylesheet" type="text/css" href="css/main.css" />
   <link rel="stylesheet" type="text/css" href="css/normalize.css" />
@@ -9,30 +9,44 @@
 </head>
 <body>
 <div class="content">
-<h1 class="libTop">crypto_server</h1>
+<h1 class="libTop">cryptoserver_go</h1>
 
-<p>This is an implementation of the <a href="http://www.xlattice.org">XLattice</a>
-CryptoServer in the Go programming language.</p>
+<p>This is an implementation of the
+<a href="https://jddixon/github.io/xlattice">XLattice</a>
+CryptoServer in the
+<a href="https://golang.org">Go</a>
+programming language, Google&rsquo;s language for
+system programming.</p>
 
-<p>A CryptoServer servers static web pages from a
+<p>A CryptoServer server static web pages from a
 <a href="https://jddixon.github.io/buildList">BuildList</a>,
 a cryptographically secure description of its content.  The BuildList
-lists all of the pages in a website by name and then by the SHA hash of
+lists all of the pages in a website by name and then by the
+<a href="https://en/wikipedia.org/wiki/Secure_Hash_Algorithm">SHA</a>
+hash of
 the page.  The BuildList contains an indented list of the files holding
 the content of each web page and the content key (SHA1 or SHA256 hash)
 of that content.  The web pages are stored in a hierarchical file
 system organized by content key instead of name.  In the current
-implementation, this means that if the content hash of a page were
-<code>0x012345...def</code>, then the page would be stored at <code>U/01/23/45...def</code>.
-If the relative path to the page were <code>path/to/fileX</code> then the indented
-list would contain
-    path
-      &hellip;
-      to
-        &hellip;
-        fileX 012345&hellip;def</p>
+implementation, this means that</p>
 
-<p>Given this file name, the system would first use the BuildList to
+<ul>
+<li>if the content hash of a page were <code>0x012345...def</code>,</li>
+<li>and the content key store is the directory <code>U</code></li>
+<li>then the page would be stored at <code>U/01/23/012345...def</code>.</li>
+</ul>
+
+<p>If the relative path to the page were <code>path/to/fileX</code> then the indented
+list in the BuildList would contain</p>
+
+<pre><code>path
+  ...
+  to
+    ...
+    fileX 012345...def
+</code></pre>
+
+<p>Given this path to the file, the system would first use the BuildList to
 determine its content hash, and then use that content hash to obtain
 the content (the web page itself) from the file system.  The CryptoServer
 would have verified the correctness of the content key by hashing the
@@ -43,23 +57,24 @@ content during the file retrieval process.</p>
 with page content distributed across the clusters.  If the server
 attempts to retrieve a web page (by content key) and the page is corrupt
 or not present on the server, then the server will automatically retrieve
-it from another member of the cluster, reading it through its own disk
+the file from another member of the cluster, reading it through its own disk
 and in-memory caches, so that it will be available locally on future
 requests.</p>
 
 <p>At any time, the system administrator can change the website by first
 adding the content of any altered web pages to one or more cluster
 members and then by replacing
-the build list.  This last action (replacing the build list)  will usually
+the BuildList.  This last action (replacing the BuildList)  will typically
 invalidate a small fraction of the pages displayed.   Generally the first
-fetch of an affected page will required that the content for the page be
+fetch of an affected page will require that the content for the page be
 retrieved from a peer; from that point there will almost always be a
 local copy of the page and retrieval will be very fast.</p>
 
 <h2>Project Status</h2>
 
-<p>Pre-alpha.  Some code exists but nothing immediately useful to the
-casual user.</p>
+<p>Pre-alpha.  Some Go code exists but nothing immediately useful to the
+casual user.   There is a Java implementation of CryptoServer which
+has been stable since 2012 or so.</p>
 
 <h2>Licensing</h2>
 <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />The material on this github.io website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
@@ -70,7 +85,7 @@ Follow the SOFTWARE LICENSE link below for more information on project software 
       <p><a href="LICENSE.html">SOFTWARE LICENSE</a></p>
     </div>
     <div class="project">
-      github <a href="https://github.com/jddixon/crypto_server">      <img src="img/GitHub-Mark-32px.png" 
+      github <a href="https://github.com/jddixon/cryptoserver_go">      <img src="img/GitHub-Mark-32px.png" 
         alt="link to project"  
         style="display: inline-block; margin-left: 0 auto; margin-right: 0 auto">
        </a> project
