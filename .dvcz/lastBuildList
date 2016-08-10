@@ -7,29 +7,28 @@ zPjEShF9rvcNa9XEy1dKpcDz9Szbm2SlxOgM83fDDGtOq4SSCSqndtxrOvXXPB57
 H1mJV/FmerbXRPm5ERJVNIxtLk7Gr2Ce45FVlWyJGMhpfVlKkkk+bRQ02OFfazJI
 GQIDAQAB
 -----END RSA PUBLIC KEY-----
-crypto_server v0.1.8
-2016-06-20 20:28:33
-# START CONTENT #
-crypto_server
+cryptoserver_go v0.1.9
+2016-08-10 18:09:19
+# BEGIN CONTENT #
+cryptoserver_go
  .copyright 27543643e5e7a76b5d770e321c1d5e1940c95635
  .dvcz
-  builds 2a0c0a22d66f82f0a6341d943b0f13559e379b39
-  lastBuildList 994f89d38d0419448126407f2e5eb8aa70a7c06a
-  projCfg c0ddc6e0756833e974399d1b3822d56e8b23ba43
+  builds 1bd7d4c8921a1a6de7bc087ace14089e52ddd1de
+  lastBuildList 4a13fa7441ca24fb983b1d26031c32f913fd355a
+  projCfg 69f0b8c147b5a3fd4c473f2fd48dfce38e0b9844
   projCfg.local 41e77462f9d746c549bc65b4a08a90856637486a
-  version 3dd76308b12b97d7b0abd63bbeeba173d52a2a27
+  version 0c054f28606d8b8788f6144e6b1111d3c983be9e
  .gitignore ec0f9002629753cd248c6a672ef3de695c30f4b7
- CHANGES c913ee01d1a28e854c34277e480e2f28eb99e418
+ CHANGES df65373bb2de399c5fdb48f9a9ee68ab95faa230
  LICENSE.md 50a6fc1b15e967d1dc37ba7559cf121a66240830
- README.md 112a67b5932f1bbe13e215cce3dbc88e3c7b9192
- TODO ca6260c5e96984ea77ac8642469e3517b3034c22
- bkp2U 5e9c9e3a457c811c465366932aacaca9a5333ce5
+ README.md 0079a155c3f0cea426a64496e2b6a727fbe92c98
+ TODO be9c8d949988849a569a9c1ee3db308ef17ee909
+ bkp2U cac5dfb1af7c89cbd86f91ae3e4a71cd3750ab19
  cmd
   cryptoServer
   siteMaker
- countem 51b1a550d8313a85e644898f9a48db44212c0739
+ countem b7ba3ff9300a776ccfa6953bde361b083a111656
  ghpDoc
-  TODO c2a1dfbb2020617bd9c61cead40b35bb5032a8c9
   css
    LICENSE.html5-boilerplate.md ded771b3245b190da0e81c76de5a80d41392c0a6
    ghp.css 1d6ebe8a6cf8f61f4645a793cb087dfae2420f33
@@ -43,21 +42,21 @@ crypto_server
    simple-cluster.jpg 6b223ddd25937c1ef75ef328f36fc3436f10bd62
    xl-registration.jpg 15cbf951f9db173a45428b32dcec87aca83bbdf0
    xlattice-2014.jpg f185aaad06db71acd9454f31054c62c56d36f37f
-  index.md f45ebf2ca53ca2e19b83e1c58afce1539c7e1a55
- gocheck_test.go cde00714bb2a6628ef6b32406ff4ee00d72bebde
- installit 15e67a6f94d955195b4d61b9de71468ba6081f93
+  index.md 31913b4d3a02b217ad6fc3518a1d3409940ee3e9
+ gocheck_test.go ffceff16c5855b2212bbc59b46ed9a0260000f32
+ installit 374c9a08db184b7521ce1f611adc234791cc943f
  java
  server
- server.go 0a1aff48104f7c531f7385a8bee76830dd427fb2
+ server.go 881a04daca64c1732c91066a22f3fb0d388f02ac
  sitemaker
   siteMaker.py ba6b5a6ca230084c19b658b2f6c7b7dff97ab27f
- styleit 8675f1a83f8a2cb6ac861d522d610d12e72d3a39
- test.all 3d82ce4df523f6ce8d0c0fabaa6ce8009bd9cd83
- version.go 0e50401c05595cb8cee0954c4ed604e1408243d6
+ styleit 6af9e53369ab8061ea7d19ea7b6201e5a5fc3a1c
+ test.all 151de0690adfeec6e17fbd791d2abfd733d3889d
+ version.go 734fda2a050e5b485610af2c89743bf8ea54180e
  xdocs
   index.xml eead325eb5bf2eeeec101b203926523d52d168e8
   roadmap.xml 49b76ff502051a86b7cf5b17bb9c8d0fa702ce43
   userguide.xml 4f15f8eb91f0bcaa83ad1b0dcb9a2686bdea1285
 # END CONTENT #
 
-VGZVBzkoqqfrI/4Ic55ws+fEGx9oqycSY6S+OPt29lXyQScW4m0oD0SmSpXPa2fmedaR+O7GoiSl5WNdRNEYCUS4ZJ+I1GcQPgq1NOxsQwFL9hX9Nzq/KVj/7Le/kCHcqNeFsWtv5p32DBPTp9/00pLzLT6GDzt0uot+egErKxetpGOx8R0w8UgJCsgMpZxyirx2aoU2ApY1qrEL2QFPfrctQYOYFs+WAwvYasXSl8GV/ml+QjZjUfcJgOzYyzsXvQOf+EPD83a6UKTtDQ+3qLdye6/6LmW4Nyt6+kA7JYs4Jar/Hu1DA84RedeqzHrsn2lJQ3nB72dD8BA6H/abPQ==
+QwIYCpL4+Z7arg5+OlAWsU2yTBexiJS4b4ZWnFnP4BrTZuWuZXzI6CqUleKhIW7LxjVZ9gwDnPl4lm8900VEbXNPsclKwBDmJBTKHEou2SLrXYer8MEhlmy4bak0LKAuxxF/WhxymiaX9fgFXbRBGghKJyok7Jx5kFJNSTG85ZcY+/tsYQKVDpGSp45es1jgpP0JpOjynfn6xt7Pi3Z8xb+VMZ0imGsf/7dWHrhaswk2qWf7l41lNzYTpCPKWeqGmzZV8vZGT97ok48vxy30XuBR8lhjgdOg5y7B7VHPDd4PdoVtMQQIuVucC2uZvTEeXQBAiQUK/bW87dOZe5/eNw==
