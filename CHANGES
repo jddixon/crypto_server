@@ -1,5 +1,8 @@
 cryptoserver_go/CHANGES
 
+v0.1.10
+    2016-09-14
+        * update license, main web page                             SLOC 2097
 v0.1.9
     2016-08-10
         * renamed project, edited documentation                     SLOC 2098
@@ -30,6 +33,7 @@ v0.1.4
 0.1.1
     2013-01-20
         * added doc/
+
 
 
 

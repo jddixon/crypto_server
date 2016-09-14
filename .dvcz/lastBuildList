@@ -7,27 +7,28 @@ zPjEShF9rvcNa9XEy1dKpcDz9Szbm2SlxOgM83fDDGtOq4SSCSqndtxrOvXXPB57
 H1mJV/FmerbXRPm5ERJVNIxtLk7Gr2Ce45FVlWyJGMhpfVlKkkk+bRQ02OFfazJI
 GQIDAQAB
 -----END RSA PUBLIC KEY-----
-cryptoserver_go v0.1.9
-2016-08-10 18:09:19
+cryptoserver_go v0.1.10
+2016-09-14 19:15:53
 # BEGIN CONTENT #
 cryptoserver_go
- .copyright 27543643e5e7a76b5d770e321c1d5e1940c95635
  .dvcz
-  builds 1bd7d4c8921a1a6de7bc087ace14089e52ddd1de
-  lastBuildList 4a13fa7441ca24fb983b1d26031c32f913fd355a
-  projCfg 69f0b8c147b5a3fd4c473f2fd48dfce38e0b9844
+  builds 60a5957925d1337914f08796fd360a6f15d76f51
+  copyright 27543643e5e7a76b5d770e321c1d5e1940c95635
+  lastBuildList 41973889c3be3e83d52cbb393600b3a99da3fe77
+  license 5977a55c75bb4612004451a56b0b4c22d9d3311d
+  projCfg 477d6b8fe6fb333a51ffdf68ee08fd5da0074bd6
   projCfg.local 41e77462f9d746c549bc65b4a08a90856637486a
-  version 0c054f28606d8b8788f6144e6b1111d3c983be9e
+  version f9a3c1e365b293f463ceab33a5ee538a57738a69
  .gitignore ec0f9002629753cd248c6a672ef3de695c30f4b7
- CHANGES df65373bb2de399c5fdb48f9a9ee68ab95faa230
- LICENSE.md 50a6fc1b15e967d1dc37ba7559cf121a66240830
- README.md 0079a155c3f0cea426a64496e2b6a727fbe92c98
+ CHANGES 4a0a2122706ba4b4e69e94ae8b1e4512b67f0b0f
+ LICENSE-MIT.md 50a6fc1b15e967d1dc37ba7559cf121a66240830
+ README.md b04a814301b2774013b8e59e4b9ddcbc459d1958
  TODO be9c8d949988849a569a9c1ee3db308ef17ee909
  bkp2U cac5dfb1af7c89cbd86f91ae3e4a71cd3750ab19
  cmd
   cryptoServer
   siteMaker
- countem b7ba3ff9300a776ccfa6953bde361b083a111656
+ countem 11addf0930b4779b5a62cc9d43403417d219dd7b
  ghpDoc
   css
    LICENSE.html5-boilerplate.md ded771b3245b190da0e81c76de5a80d41392c0a6
@@ -42,7 +43,7 @@ cryptoserver_go
    simple-cluster.jpg 6b223ddd25937c1ef75ef328f36fc3436f10bd62
    xl-registration.jpg 15cbf951f9db173a45428b32dcec87aca83bbdf0
    xlattice-2014.jpg f185aaad06db71acd9454f31054c62c56d36f37f
-  index.md 31913b4d3a02b217ad6fc3518a1d3409940ee3e9
+  index.md 5be64e52e58031aa3a92a85ea461ac32eb911964
  gocheck_test.go ffceff16c5855b2212bbc59b46ed9a0260000f32
  installit 374c9a08db184b7521ce1f611adc234791cc943f
  java
@@ -52,11 +53,11 @@ cryptoserver_go
   siteMaker.py ba6b5a6ca230084c19b658b2f6c7b7dff97ab27f
  styleit 6af9e53369ab8061ea7d19ea7b6201e5a5fc3a1c
  test.all 151de0690adfeec6e17fbd791d2abfd733d3889d
- version.go 734fda2a050e5b485610af2c89743bf8ea54180e
+ version.go b181d35aeb737cdec6d8f5f11196dea59e95cc1d
  xdocs
   index.xml eead325eb5bf2eeeec101b203926523d52d168e8
   roadmap.xml 49b76ff502051a86b7cf5b17bb9c8d0fa702ce43
   userguide.xml 4f15f8eb91f0bcaa83ad1b0dcb9a2686bdea1285
 # END CONTENT #
 
-QwIYCpL4+Z7arg5+OlAWsU2yTBexiJS4b4ZWnFnP4BrTZuWuZXzI6CqUleKhIW7LxjVZ9gwDnPl4lm8900VEbXNPsclKwBDmJBTKHEou2SLrXYer8MEhlmy4bak0LKAuxxF/WhxymiaX9fgFXbRBGghKJyok7Jx5kFJNSTG85ZcY+/tsYQKVDpGSp45es1jgpP0JpOjynfn6xt7Pi3Z8xb+VMZ0imGsf/7dWHrhaswk2qWf7l41lNzYTpCPKWeqGmzZV8vZGT97ok48vxy30XuBR8lhjgdOg5y7B7VHPDd4PdoVtMQQIuVucC2uZvTEeXQBAiQUK/bW87dOZe5/eNw==
+SJJUosp6i+inUVPusuZEcIKCXJdHi6ofAuLkpGRzUyRKkgFak2fCwBX8eQ7bibSFAeo1cc1KkXb+DvfEobbDFUXf/OyMqDG4cTdiQs8T5x1vdHj4uEYDDCW0kGdTzkwtPQsEGJNnkX49ZN+mLg2wBW6YPms/4wtyTRyWY1IKuRQqdXYHaTX4JR6BanV7LNVnMH6uaoPqI7qFfZu4MvM0C9Hb/E8JUzTUcZScpLKx3hQdQvoKTAtG0U4zC5iyUHxdCYMmSB4xFOvRWZFEVq9K7n7dKbRUZfq+ozSTX1ImU+n2tdxwJHgkveYe9KY1h8aKtFvvGZ0fSBXRMP2DLYVMhA==

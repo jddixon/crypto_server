@@ -7,7 +7,7 @@ CryptoServer in the
 programming language, Google's language for
 system programming.
 
-A CryptoServer server static web pages from a
+A CryptoServer serves static web pages from a
 [BuildList](https://jddixon.github.io/buildList),
 a cryptographically secure description of its content.  The BuildList
 lists all of the pages in a website by name and then by the
@@ -56,10 +56,38 @@ fetch of an affected page will require that the content for the page be
 retrieved from a peer; from that point there will almost always be a
 local copy of the page and retrieval will be very fast.
 
+## Motivation
+
+The CryptoServer protects against the all-too-common style of web site
+attack where a malicious hacker defaces the web site by replacing or
+alterial legitimate content with the intention of confusing, misleading,
+or deceiving the readaer.  In order to change what the CryptoServer
+displays, it is necessary to alter the BuildList.  Doing this requires
+access to the private key used to sign the BuildList -- you have to first
+change the BuildList (adding your unauthorized content -- and then sign
+the BuildList using the private key.  As this key need not (and should not)
+be stored on the web server, this forces the hacker to comprovise not only
+the web server but also the machine used by the designer, where the key
+will have been used in preparing the BuildList.  The web server is necessarily
+on an open Internet and so can be easily attacked.  The designer's machine
+will normally be on a private subnet which is not publicly accessible.
+
+To complete the attack, the hacker must
+
+* gain access to the web designer's private network,
+* locate the secret key,
+* use that private key to generate a compromised BuildList
+* introduce altered content into the system which distributes pages to the web servers
+* and distribute the compromised BuildList to the web servers
+
+This is a formidable list of tasks.
+
 ## Project Status
 
 Pre-alpha.  Some Go code exists but nothing immediately useful to the
-casual user.   There is a Java implementation of CryptoServer which
+casual user.
+
+There is a Java implementation of CryptoServer which
 has been stable since 2012 or so.
 
 ## On-line Documentation
