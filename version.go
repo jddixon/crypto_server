@@ -1,6 +1,6 @@
 package cryptoserver_go
 
 const (
-	VERSION      = "0.1.10"
-	VERSION_DATE = "2016-09-14"
+	VERSION      = "0.1.11"
+	VERSION_DATE = "2017-10-23"
 )
