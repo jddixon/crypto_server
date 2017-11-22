@@ -7,22 +7,19 @@ Giaje1YAJPNVBt3dlOA5lhBp4GpSYBskJ9UR2Zyt3lgAGK3dEwxYETLMh9VWEV8i
 k2lyCIE/V/CDb9eVDYQgYSJYrnQ/JAPST7NbcY8aI+/0l7QVBhLBpmOCvmS6ofvz
 /QIDAQAB
 -----END PUBLIC KEY-----
-cryptoserver_go v0.1.11
-2017-10-23 19:23:07
+cryptoserver_go
+2017-11-22 19:47:27
 # BEGIN CONTENT #
 cryptoserver_go
  .dvcz
-  builds 8ae5492c407c2b303875d5bf8875b9f0810eca75
-  copyright 96b79ee11acaba61abef0c4a9f5bdd455eb774ef
-  lastBuildList 016c121a15e2b28e1f13638f71b08e20b0a0f4ff
-  license 5977a55c75bb4612004451a56b0b4c22d9d3311d
+  builds 282011d00bbece850dc17d0034c119286596ad55
+  lastBuildList e0266a4e2114857cd5cb67387faf681bb43b077d
   projCfg 477d6b8fe6fb333a51ffdf68ee08fd5da0074bd6
   projCfg.local 41e77462f9d746c549bc65b4a08a90856637486a
-  version 604b36b909c50aa20237f75035a04778ef700aa9
+  projConfig.toml 359c7dd276e73fa9a8b83d220c1a3e2973ab0deb
  .gitignore 4ac626e1e9b9dc380fa7b0ab060088b0c4a88215
- CHANGES 3940ee51267fcd127e56136f4d91cf8329664b1f
+ CHANGES cd73371522545f0dbe750bfdb1982aa070eedf5b
  LICENSE-MIT.md 50a6fc1b15e967d1dc37ba7559cf121a66240830
- LICENSE.md 50a6fc1b15e967d1dc37ba7559cf121a66240830
  README.md b04a814301b2774013b8e59e4b9ddcbc459d1958
  TODO be9c8d949988849a569a9c1ee3db308ef17ee909
  bkp2U c1508a7d08bbc80e00085fdf65aaf1432b755a24
@@ -48,18 +45,17 @@ cryptoserver_go
  gocheck_test.go ffceff16c5855b2212bbc59b46ed9a0260000f32
  installit 374c9a08db184b7521ce1f611adc234791cc943f
  java
- projConfig.toml 902af7f321160973dceb9cbbc1e1cb4011cb12d8
  server
  server.go 881a04daca64c1732c91066a22f3fb0d388f02ac
  sitemaker
   siteMaker.py ba6b5a6ca230084c19b658b2f6c7b7dff97ab27f
  styleit 6af9e53369ab8061ea7d19ea7b6201e5a5fc3a1c
  test.all 151de0690adfeec6e17fbd791d2abfd733d3889d
- version.go 4e5811e1eb2cacb9c277c3d83927a8a1995c8482
+ version.go 4dd3522a977b2cdfe4ee352f41ce7a773c2aaa15
  xdocs
   index.xml eead325eb5bf2eeeec101b203926523d52d168e8
   roadmap.xml 49b76ff502051a86b7cf5b17bb9c8d0fa702ce43
   userguide.xml 4f15f8eb91f0bcaa83ad1b0dcb9a2686bdea1285
 # END CONTENT #
 
-HM/BPk+0qnTRGVw4aT4TkCpawoZbIXQJ9/ble+tIYfy+6NfhscLzBEaexbEcL9Ii99fXUGeYoABD/fwSuAAPt1MWhUL4jXin/ssH+gO+0ZRFjVF/69LRHPkZHMvH1Uu+okQYNUQlsGi4yZlg5FAhpGXTrHoXq5ay33d0/6GgWjQKh5fdFKkuhHOnVsod4gSkN4vYlO6NoN6/euQeRgzpAs/E2ZJ++/YXKJEqBqwqAGMWprzrHPjRHbItUQUXqDRtf53JGBcn1wAjjLBYHqmrYwjXzh6jknFt23Gojj+6scYnZ1/rPKc1WKBPeqhiqTZXP57KtK3MDe5BnbJQb7WScg==
+TVqZsBlQMdxWJ+9rgsVwphc/75baJguxWqcH5JUI6TkOhIa7MvfLNw1SF1CmkDcgRCDw9WxYq0GU1i/gF803wCKDB6spPQAomW2gSleGLSqCgwOczPxwXN7bAf4rsi3mDU3KTJ40oztw7Zc1CJ5qX12LpJBaIM6rJwhJg+6cRP/3Vl7YdEf9JhFOYLrMmYusOccjTvFXvuEgGWu6aIDwUN5aMmFzsZCjiugaGOpvg0UB6cB659urt3AUPJ8y2uqaBzut84YivzPvTONvxD7a8gRPI/rueHN+Z/zCoKCMB5Qr8SR6Q0MJZ0b74EACOWREbAoVt6L5XPhfPCFEWOKdkQ==

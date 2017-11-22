@@ -1,5 +1,8 @@
 cryptoserver_go/CHANGES
 
+v0.1.12
+    2017-11-22
+        * correct directory structure, config files                 SLOC 
 v0.1.11
     2017-10-23
         * add projConfig.toml                                       SLOC 1894
@@ -36,6 +39,7 @@ v0.1.4
 0.1.1
     2013-01-20
         * added doc/
+
 
 
 
