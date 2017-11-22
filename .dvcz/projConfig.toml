@@ -1,0 +1,21 @@
+[meta]
+version = "0.1.0"
+
+[project]
+name = "cryptoserver_go"
+package = "cryptoserver_go"
+proj_dir = "/home/jdd/dev/go/src/github.com/jddixon/cryptoserver_go"
+main_lang = "go"
+version = "0.1.12"
+version_date = "2017-11-22"
+author = "Jim Dixon"
+author_email = "jddixon@gmail.com"
+copyright = "2013-2017"
+description = "XLattice secure web server"
+dev_status = "pre_alpha"
+license = "mit"
+state = "shared"
+url = "https://jddixon.github.io/cryptoserver_go"
+
+[go]
+cmds = [ "cryptoServer", "siteMaker",]
